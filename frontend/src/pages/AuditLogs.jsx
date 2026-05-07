@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Badge } from '@/components/ui/badge';
 
-const API_URL = 'http://kubiai-production.up.railway.app/api';
+import { API_URL } from '@/config';
 
 export default function AuditLogs() {
   const [logs, setLogs] = useState([]);

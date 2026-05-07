@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, GitMerge, FileJson } from 'lucide-react';
 
-const API_URL = 'http://kubiai-production.up.railway.app/api';
+import { API_URL } from '@/config';
 
 export default function MergeVisualizer() {
   const [ubids, setUbids] = useState([]);

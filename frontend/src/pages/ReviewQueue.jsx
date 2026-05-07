@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Textarea } from '@/components/ui/textarea';
 
-const API_URL = 'http://kubiai-production.up.railway.app/api';
+import { API_URL } from '@/config';
 
 export default function ReviewQueue() {
   const [queue, setQueue] = useState([]);

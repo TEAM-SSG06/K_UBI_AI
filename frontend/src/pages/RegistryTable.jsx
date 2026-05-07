@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Search, Filter, ArrowUpDown } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
-const API_URL = 'http://kubiai-production.up.railway.app/api';
+import { API_URL } from '@/config';
 
 export default function RegistryTable() {
   const [data, setData] = useState([]);
