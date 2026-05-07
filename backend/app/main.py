@@ -10,7 +10,11 @@ app = FastAPI(
 # Configure CORS for the frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],  # Vite default port
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173",
+        "https://k-ubi-ai.vercel.app"
+    ],  # Vite default port and production URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
