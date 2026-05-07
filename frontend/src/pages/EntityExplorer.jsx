@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'http://kubiai-production.up.railway.app/api';
 
 export default function EntityExplorer() {
   const [ubids, setUbids] = useState([]);
