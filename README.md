@@ -883,7 +883,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support & Contact
 
 For issues, questions, or suggestions:
-- 📧 Email: [team@example.com](mailto:team@example.com)
+- 📧 Email: [deepakarukutti@gmail.com](mailto:deepakarukutti@gmail.com)
 - 🐙 GitHub Issues: [K_UBI_AI/issues](https://github.com/TEAM-SSG06/K_UBI_AI/issues)
 - 💬 Discussions: [K_UBI_AI/discussions](https://github.com/TEAM-SSG06/K_UBI_AI/discussions)
 
