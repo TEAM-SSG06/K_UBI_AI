@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+redis
+recordlinkage
+pandas
+scikit-learn
+xgboost
+pytest
+python-dotenv
+jellyfish
+splink
+duckdb
