@@ -4,7 +4,7 @@ import { Database, Zap, GitMerge, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'http://kubiai-production.up.railway.app/api';
 
 export default function Dashboard() {
   const [metrics, setMetrics] = useState(null);
